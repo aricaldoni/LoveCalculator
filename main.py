@@ -30,9 +30,9 @@ score = int(total_true_letters + total_love_letters)
 #For Love Scores less than 10 or greater than 90, the message should be:
 #For Love Scores between 40 and 50, the message should be
 #Otherwise, the message will just be their score.
-if score <= 10 or score >= 90:
+if (score <= 10) or (score >= 90):
   print(f"Your score is {score}, you go together like coke and mentos.")
-elif score >= 40 and score <= 50:
+elif (score >= 40) and (score <= 50):
   print(f"Your score is {score}, you are alright together.")
 else:
   print(f"Your score is {score}.")
